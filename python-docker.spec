@@ -4,7 +4,7 @@
 %bcond_with tests
 
 Name:           python-%{srcname}
-Version:        2.4.2
+Version:        2.5.0
 Release:        1%{?dist}
 Summary:        A Python library for the Docker Engine API
 License:        ASL 2.0
@@ -72,5 +72,8 @@ run containers, manage containers, manage Swarms, etc.
 
 
 %changelog
+* Tue Aug 22 2017 Carl George <carl@george.computer> - 2.5.0-1
+- Latest upstream
+
 * Tue Jul 25 2017 Carl George <carl@george.computer> - 2.4.2-1
 - Initial package
